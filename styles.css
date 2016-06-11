@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,900);
+
+html, body {
+  background: url(images/belsay.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: #D0CFDE;
+}
+
+.page-header {
+  color: #50965A;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+  font-weight: 900;
+}
+
+.wrapper {
+  background: rgba(2,2,2,0.9);
+  height: 100vh;
+  padding: 50px;
+}
+
+.about-me,
+.services {
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 200px 200px 200px;
+}
+
+/*#DDE2E5
+#8C9EBD
+#3C563F
+#5E3746
+#DB8F6A
+#F2CFB2*/
