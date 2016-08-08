@@ -16,55 +16,89 @@
 
   <!-- stylesheets -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1 class="page-header">MWH Gardening Services</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="#about-me">About Me</a>
-        </li>
-        <li>
-          <a href="#services">Services</a>
-        </li>
-      </ul>
-    </nav>
-    <a href="mailto:mwh.gardening@gmail.com">Click here to Email Me and get a quote</a>
+    <div class="container-flex">
+       <div class="head">
+        <img src="images/mag-robin.png" alt="robin-mag" width="150" class="icon">
+        <h1 class="page-header">MWH Gardening Services</h1>
 
-    <div class="wrapper about-me">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h3 id="about-me">About Me</h3>
-        <a name="about-me">
-          <pre>
-            about me i am matthew hall trained at belsay hall
-            about me i am matthew hall trained at belsay hall
-            about me i am matthew hall trained at belsay hall
-            about me i am matthew hall trained at belsay hall.
-            about me i am matthew hall trained at belsay hall.
-            about me i am matthew hall trained at belsay hall.
-            about me i am matthew hall trained at belsay hall.
-            about me i am matthew hall trained at belsay hall.
+      </div> 
 
-          </pre>
-        </a>
-      </div>
     </div>
+      <div class="line"></div>
 
-    <div class="wrapper services">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h3 id="services">Services</h3>
-        <a name="services">
-          <ul>
-            <li>Landscaping Services</li>
-            <li>Garderning Services</li>
-            <li>Hedge Trimming</li>
-            <li>Hardcore</li>
-          </ul>
+        <a href="mailto:mwh.gardening@gmail.com" class="email-link">
+          <div class="btn btn-success contact" type="button">
+            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+            <span class="email-me">Get in Touch!</span>
+          </div>
         </a>
-      </div>
-    </div>
 
-  </div>
+    <div class="container">
+      <div class="row">
+          <div class="box row about-me-container">
+              <!-- <h1>About Me</h1> -->
+              <p class="about-me">
+                I trained for 3 years in at Belsay Hall and Gardens in Northumberland under the stewardship of English Heritage, achieving an NVQ Level 3 Distinction in Horticulture from the National Trust.
+                <br> 
+                Since that time I have been involved in Garden design and landscaping, running my own landscape gardening business with a particular interest in soft landscaping, garden design and trees.  I  undertake all aspects of landscape services from design through to hard landscaping and planting.
+              </p>
+            </div>
+
+            <div class="line"></div>
+          <!-- <div class="col-sm-6"> -->
+            <div class="box row services-container">
+              <div class="services-header">
+                
+                <h1 class="strong services-title text-center">Services</h1>             
+                <div class="images">
+                  <img src="images/spade.png" alt="" width="50">
+                  <img src="images/design.png" alt="" width="50">
+                  <img src="images/tree.png" alt="" width="50">
+                </div>
+              </div>
+
+              <p class="services">
+                <ul class="row">
+                  <li class="title col-sm-4">
+                    Hard landscaping
+                    <ul class="hard">
+                      <li>Patios</li>
+                      <li>Paths</li>
+                      <li>Decking</li>
+                    </ul>
+                  </li>
+
+                  <li class="title col-sm-4">
+                  Soft Landscaping
+                    <ul class="soft">
+                      <li>Garden design</li>
+                      <li>Borders</li>
+                      <li>Planting</li>
+                    </ul>
+                  </li>
+
+                  <li class="title  col-sm-4">
+                    Tree Work
+                      <ul class="tree">
+                        <li>Trees pruned, removed and chipped</li>
+                        <li>Hedge cutting</li>
+                      </ul>
+                  </li>
+                </ul>
+
+              </p>
+            </div>
+          <!-- </div> -->
+
+          <!-- <div class="col-sm-6"> -->
+
+          <!-- </div>  -->
+      </div>
+    </div>   
+    <!-- <img src="images/belsay.jpg" alt="belsayhall" width="200"> -->
 </body>
 </html>

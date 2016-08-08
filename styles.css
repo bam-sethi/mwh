@@ -1,33 +1,184 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400,900);
 
+
+/*color*/
+/*
+KASHI
+turq: #5db89d;
+green: #007034;
+beige: #8c8535;
+yellow: #ffca00;
+terracotta: #f26547;
+
+*/
+/*
+boycoy
+red: #f15d58;
+grey: #363635;
+green: #83bf17;
+beige: #a68f58;
+cream: #dcddcd;
+*/
+/*
+  Colour Pallette
+*/
+
 html, body {
-  background: url(images/belsay.jpg) no-repeat center center fixed; 
+/*  background: url(images/belsay.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  background: #D0CFDE;
+  background-size: cover;*/
+  background: #f15d58;
+  font-family: 'Alegreya', serif;
 }
+
+
+
+
 
 .page-header {
-  color: #50965A;
+  color: #363635;
   font-size: 3em;
-  text-align: center;
+  text-align: left;
   font-family: 'Alegreya', serif;
   font-weight: 900;
+  text-decoration: none;
+  border: 0;
+  width: 100%;
+  text-align: center;
 }
 
-.wrapper {
-  background: rgba(2,2,2,0.9);
-  height: 100vh;
-  padding: 50px;
+.head {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact {
+  /*margin: 0 auto;*/
+  text-align: right;
+  display: inline-block;
+  /*float: right;*/
+  font-family: 'Alegreya', serif;
+  /*right: 25px;*/
+  /*position: absolute;*/
+  /*top: 37px;*/
+  background-color: #83bf17;
+  color: #363635;
+  border-color: #83bf17;
+  font-size: 1em;
+  text-indent: 0;
+  float: right;
+  margin-right: 80px;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  display: none;
+}
+
+
+
+a.email-link {
+  text-decoration: none;
+  color: #363635;
+  font-size: 2em;
+}
+
+span.email-me {
+  vertical-align: super;
+}
+
+.about-me {
+  color: #dcddcd;
+  font-size: 2.5em;
+  font-family: 'Alegreya', serif;
+  font-weight: 400;
+}
+
+.about-me-container {
+  /*border: 1px solid #83bf17;*/
+  margin: 50px 100px;
+  margin-top: 100px;
+}
+
+.services-container {
+  font-size: 1.5em;
+  margin: 100px auto;
+}
+/*ul:first-child {
+  font-size: 1.2em;
+}*/
+
+.services-header {
+  text-align: center;
+}
+.services-title {
+  font-size: 2em;
+  /*margin-top: 100px;*/
+}
+
+.images {
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+  padding: 10px 20px;
+  vertical-align: top;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.title li {
+  font-size: 1em;
+  font-style: normal;
+}
+
+.line {
+  border-bottom: 5px solid #363635;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.box {
+  /*background: #F0F2EC;*/
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  color: #dcddcd;
+
 }
 
 .about-me,
 .services {
-  background: #fff;
-  border-radius: 10px;
-  margin: 0 200px 200px 200px;
+  /*margin: 10px;*/
+  /*color: #48484F;*/
+}
+
+
+li.title {
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (max-width: 760px) { 
+  .head {
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .icon {
+    position: absolute;
+    top: -36px;
+    right: -74px;
+  }
+
 }
 
 /*#DDE2E5
